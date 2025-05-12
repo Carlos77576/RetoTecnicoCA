@@ -1,0 +1,184 @@
+{
+  "id": "af5adddc-411c-4145-b41a-9415a628cbbd",
+  "version": "2.0",
+  "name": "https://www.floristeriamundoflor.com/",
+  "url": "https://www.floristeriamundoflor.com",
+  "tests": [{
+    "id": "1d71860e-3b43-4366-a18e-8ae9515f1a52",
+    "name": "Untitled",
+    "commands": [{
+      "id": "c9146e90-5dfc-466e-94ce-0ba7f46d2621",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3ad4a321-fbe2-483b-8565-0366fef9f408",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x720",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "de14d3c2-cd98-4391-a099-f9b4d08bca3e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.dropdown-toggle > .text-skin",
+      "targets": [
+        ["css=.dropdown-toggle > .text-skin", "css:finder"],
+        ["xpath=//div[@id='cart']/a/span", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3e291346-a35d-4cb3-9dad-ab7e485a291f",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.dropdown-toggle > .text-skin",
+      "targets": [
+        ["css=.dropdown-toggle > .text-skin", "css:finder"],
+        ["xpath=//div[@id='cart']/a/span", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f26bd251-4f83-4a7e-a8ad-3ecb5c16005b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Amor",
+      "targets": [
+        ["linkText=Amor", "linkText"],
+        ["css=#primary-menu > .menu-item-2765 > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Amor')])[3]", "xpath:link"],
+        ["xpath=//ul[@id='primary-menu']/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.floristeriamundoflor.com/product-category/amor/')])[3]", "xpath:href"],
+        ["xpath=//div[2]/nav/div/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "09d2dfce-0572-434c-8335-fd19e1b208a9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Añadir al carrito",
+      "targets": [
+        ["linkText=Añadir al carrito", "linkText"],
+        ["css=.col-xs-12:nth-child(1) > .product-block .add-cart > .button", "css:finder"],
+        ["xpath=//div[@id='content']/div[2]/div/div/div/div/figure/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '?add-to-cart=4100')]", "xpath:href"],
+        ["xpath=//figure/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Añadir al carrito')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f006f0aa-28e4-45f1-a7e8-24875165d15a",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Añadir al carrito",
+      "targets": [
+        ["linkText=Añadir al carrito", "linkText"],
+        ["css=.col-xs-12:nth-child(1) > .product-block .add-cart > .button", "css:finder"],
+        ["xpath=//div[@id='content']/div[2]/div/div/div/div/figure/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '?add-to-cart=4100')]", "xpath:href"],
+        ["xpath=//figure/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Añadir al carrito')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a22c9641-25c7-434b-b830-c1bf698cebe0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-xs-12:nth-child(1) > .product-block .title-cart",
+      "targets": [
+        ["css=.col-xs-12:nth-child(1) > .product-block .title-cart", "css:finder"],
+        ["xpath=//div[@id='content']/div[2]/div/div/div/div/figure/div/div/a/span", "xpath:idRelative"],
+        ["xpath=//figure/div/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Añadir al carrito')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a42293bb-72bd-4b12-9793-4db491051c2a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Añadir al carrito",
+      "targets": [
+        ["linkText=Añadir al carrito", "linkText"],
+        ["css=.col-xs-12:nth-child(2) .add-cart > .button", "css:finder"],
+        ["xpath=//div[@id='content']/div[2]/div/div[2]/div/div/figure/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '?add-to-cart=4084')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/figure/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "448c3121-af4d-42a1-9dc4-838a703f1bad",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Añadir al carrito",
+      "targets": [
+        ["linkText=Añadir al carrito", "linkText"],
+        ["css=.col-xs-12:nth-child(2) .add-cart > .button", "css:finder"],
+        ["xpath=//div[@id='content']/div[2]/div/div[2]/div/div/figure/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '?add-to-cart=4084')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/figure/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "08575710-a6c0-4155-a40e-0505897abed7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-xs-12:nth-child(2) .title-cart",
+      "targets": [
+        ["css=.col-xs-12:nth-child(2) .title-cart", "css:finder"],
+        ["xpath=//div[@id='content']/div[2]/div/div[2]/div/div/figure/div/div/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/figure/div/div/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "968bf546-670d-412a-be93-012612fcb9de",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.col-xs-12:nth-child(2) .add-cart > .button",
+      "targets": [
+        ["css=.col-xs-12:nth-child(2) .add-cart > .button", "css:finder"],
+        ["xpath=//div[@id='content']/div[2]/div/div[2]/div/div/figure/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '?add-to-cart=4084')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/figure/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "47b1ac92-1008-46ff-8376-055ccce99a1e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sub-title",
+      "targets": [
+        ["css=.sub-title", "css:finder"],
+        ["xpath=//div[@id='cart']/a/span[2]", "xpath:idRelative"],
+        ["xpath=//a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'CARRO : $ 649.000')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6500da9a-2b1b-4fe7-b98f-57b86d7d5379",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=#cart > .dropdown-toggle",
+      "targets": [
+        ["css=#cart > .dropdown-toggle", "css:finder"],
+        ["xpath=//div[@id='cart']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[7]", "xpath:href"],
+        ["xpath=//div[3]/div/div/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "360eaa8e-380d-47f9-a5aa-a776fd9065e2",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["1d71860e-3b43-4366-a18e-8ae9515f1a52"]
+  }],
+  "urls": ["https://www.floristeriamundoflor.com/"],
+  "plugins": []
+}
